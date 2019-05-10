@@ -20,7 +20,7 @@ type Ship {
 
 type Query {
 	Captain(id: Int!): Officer
-	Captains: [Captains]!
+	Captains: [Captain]!
 	Ship(id: Int!): Ship
-	Ships: [Ships]!
+	Ships: [Ship]!
 }
