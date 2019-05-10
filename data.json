@@ -1,0 +1,60 @@
+{
+	"Captains": [
+		{
+			"id": 0,
+			"name": "James Kirk",
+			"status": "retired",
+			"ship_ids": ["NCC-1701", "NCC-1701A", "NCC-1701B"]
+		},
+		{
+			"id": 1,
+			"name": "Jean Luc Picard",
+			"status": "active",
+			"ship_ids": [ "NCC-1701D", "NCC-1701E" ]
+		},
+		{
+			"id": 2,
+			"name": "Katherine Janeway",
+			"status": "missing",
+			"ship_ids": [ "noidea" ]
+		}
+	],
+	"Ships": [
+		{
+			"id": "NCC-1701",
+			"name": "Enterprise",
+			"mission_length": "5 year",
+			"class": "Constituion"
+		},
+		{
+			"id": "NCC-1701A",
+			"name": "Enterprise",
+			"mission_length": "5 year",
+			"class": "Constituion"
+		},
+		{
+			"id": "NCC-1701B",
+			"name": "Enterprise",
+			"mission_length": null,
+			"class": "Constituion"
+		},
+		{
+			"id": "NCC-1701D",
+			"name": "Enterprise",
+			"mission_length": "ongoing",
+			"class": "Galaxy"
+		},
+		{
+			"id": "NCC-1701E",
+			"name": "Enterprise",
+			"mission_length": null,
+			"class": "Cantremember"
+		},
+		{
+			"id": "noidea",
+			"name": "Voyager",
+			"mission_length": "9 years",
+			"class": "Alsonoidea"
+		}
+	]
+}

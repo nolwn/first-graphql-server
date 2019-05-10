@@ -1,0 +1,26 @@
+interface Officer {
+	id: Int!
+	name: String!
+	status: String!
+},
+
+type Captain implements Officer {
+	id: Int!
+	name: String!
+	status: String!
+	commands: [Ship]!
+},
+
+type Ship {
+	designation: String!
+	name: String!
+	mission_length: String
+	class: String!
+},
+
+type Query {
+	Captain(id: Int!): Officer
+	Captains: [Captains]!
+	Ship(id: Int!): Ship
+	Ships: [Ships]!
+}
